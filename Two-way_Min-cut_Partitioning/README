@@ -1,0 +1,19 @@
+--How to Complie
+
+In src/ directory, enter the following command:
+$ make
+
+It will generate the executalbe file
+"hw2" in the bin/ directory.
+
+If you want to remove it please enter the
+following command:
+
+$ make clean
+
+--How to Run
+
+Usage: ./<exe> <nets> <cells> <output file name>
+
+e.g.:
+$ ./bin/hw2 ../testcases/p2-1.nets ../testcases/p2-1.cells ../output/p2-1.out
