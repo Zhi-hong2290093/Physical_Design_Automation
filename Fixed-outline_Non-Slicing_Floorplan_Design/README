@@ -1,0 +1,19 @@
+--How to Complie
+
+In src/ directory, enter the following command:
+$ make
+
+It will generate the executalbe file
+"hw3" in the bin/ directory.
+
+If you want to remove it please enter the
+following command:
+
+$ make clean
+
+--How to Run
+
+Usage: ./<exe> <hardblock file> <nets file> <pl file> <output file name> <dead space ratio>
+
+e.g.:
+$ ./bin/hw3 ../testcases/n100.hardblocks ../testcases/n100.nets ../testcases/n100.pl ../output/n100_015.floorplan 0.15
